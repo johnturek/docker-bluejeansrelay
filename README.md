@@ -9,7 +9,7 @@ Running
 -------
 
 ```bash
-docker run --env-file=.env --rm -it lox24/bluejeansrelay
+docker run --env-file=.env --rm -it jvt/bluejeansrelay
 ```
 
 Developing
@@ -24,6 +24,6 @@ Example env file:
 
 ```
 LISTENER_SERVICE=xyz
-AMQP_USERNAME=99designs
+AMQP_USERNAME=yourRelayUserName
 AMQP_PLAINTEXT_PASSWORD=blahblahblah
 ```
