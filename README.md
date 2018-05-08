@@ -16,7 +16,7 @@ Developing
 ----------
 
 ```bash
-docker build --tag lox24/bluejeansrelay .
+docker build --tag jvt/bluejeansrelay .
 ```
 
 Example env file:
